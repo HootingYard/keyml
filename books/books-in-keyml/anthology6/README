@@ -1,0 +1,62 @@
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+This is the draft master-copy of Brute Beauty And Valour And Act, Oh, Air, Pride, Plume, Here Buckle!
+
+books
+└── brute
+    ├── index.html        Not part of the book, just here as a place to browsing the draft
+    ├── cover.png         Place-holder bookcover.
+    ├── bookinfo.json     Metadata for EPUB and LaTeX front matter
+    ├── Text
+    │   ├── toc.xhtml      Table of contents. This gives the chapter order.
+    │   ├── preface.xhtml
+    │   ├── title.xhtml
+    │   ├── copyright.xhtml
+    │   ├── nnnnn_the_chapters_title.xhtml   nnnn = the Wordpress post number
+    │   └── ...
+    ├── Text
+    ├── Images            Images used in the Text pages. All GIFs have been converted to PNG.
+    └── Styles
+        └── style.css     A placeholder style. Emulates the look of the PDF version.
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+XHTML 
+
+The XHTML used is a subset that is covers everything used in the blog, is acceptable in an 
+EPUB and is enough to generate LaTeX from. These can be added to where necessary.
+
+Span level tags:
+
+    strong sup tt     
+    br 
+    a
+    del                  struck-out text
+
+Block level tags:
+
+    h1                 for post headings
+    h2                 un-indexed subheadings
+    ol
+    ul
+    p
+    p.noindent         Unidented paragraph. Occurs after headings, illustations and block quotes.
+    p.center           Centered text
+    
+    p.textbreak        Contains the asterisks placed between paragraphs.
+    
+    blockquote         For quotations, 
+         p                which always contain at least one paragraph
+
+    p.verse            a stanza of verse,
+    p.linebreaks       or any other paragraph with linebreaks
+         br
+
+    div.blockparagraphs   text which look best as unindented paragraphs separated by vertical whitespace
+         p
+         
+    div.illustration   One or more illustration images, to be placed in a row.
+         p.imagerow
+            img
+         p.caption
+
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
