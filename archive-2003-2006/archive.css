@@ -1,0 +1,77 @@
+/* These are just here for demonstration. */
+
+body { 
+    font-size:80%; 
+    line-height:1.3em; 
+    margin-left: 15%; 
+    margin-right: 15%; 
+    /* background-image: url("yardback.gif"); background-color: #A7C3D9; */
+}
+
+div.header a { text-decoration: none; }
+div.header a.indexlink { font-weight: bold; text-transform: uppercase; }
+   
+
+div.header { 
+    margin-top: 2em; 
+    padding: 1em; 
+    /* background: #A7C3D9; */
+}
+
+div.footer { 
+    text-align: center;
+}
+
+div.header img { 
+    width: 100%; 
+}
+
+
+div.index { 
+    /* margin-left: 10%; margin-right: 10%; */
+    /* margin-top: 2em; */
+    padding: 1em; 
+    /* background: #A7C3D9;  */
+}
+
+div.day { 
+    margin-top: 1em; 
+    padding: 1em; 
+    /* background: #A7C3D9;  */
+}
+
+div.header h1 { text-align: center; }
+
+div.day h1     {  /* border-top-style: solid; */ }
+div.day h1 a   { color: red; text-decoration: none; text-transform: uppercase; }
+div.day h2     { margin-top: 1.5em; text-decoration: none; text-transform: uppercase; }
+div.feast h2 a { text-decoration: none; color: red; text-align: center; }
+div.post  h2 a { text-decoration: none; color: black; }
+
+div.index a       { text-decoration: none; color: black; }
+div.index a.day   { font-weight: bold;  }   /* Index item for a day. */
+div.index a.post  { }                       /* Index item for a post. */
+div.index a.quote { font-style: italic; }   /* Index item for a quote. */
+div.index a.feast { color: red; }           /* Index item for a feast day announcement. */
+
+
+div.quote { margin-left: 5%; margin-right: 5%; }   /* the quotes of the day */
+blockquote { margin-left: 5%; margin-right: 5%; }  /* blocks of text quoted in posts */
+
+p.editor  { font-weight: bold; } /* An editorial comment by Mr Key */
+p.source  { font-weight: bold; } /* An attribution by Mr Key */
+
+div.illustration { text-align: center; }  /* box around an illustration and caption */
+div.illustration div.images  { }
+div.illustration div.images p { }
+div.illustration div.images p img { }
+div.illustration div.caption {  }
+div.illustration div.caption p { font-weight: bold; font-size: 80%; }
+
+p.centered { text-align: center; }
+
+p.footnote           { font-size: 80%; }      
+p.footnote span.mark { font-weight: bold; color: red; }
+span.asterisk        { font-weight: bold; color: red; }
+
+/* end */

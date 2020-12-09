@@ -1,0 +1,16 @@
+K 10
+svn:ignore
+V 77
+ch
+*.ind
+*.aux
+*.idx
+*.ilg
+.ind
+*.log
+.project
+.pydevproject
+anthology4.pdf
+
+
+END

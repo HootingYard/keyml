@@ -1,0 +1,229 @@
+\documentclass[openany,final]{memoir}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{t1enc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{url}
+\usepackage{fixltx2e}
+\usepackage[osf]{mathpazo}
+\usepackage[protrusion=true]{microtype}%,expansion=true
+\usepackage{memhfixc}
+
+
+\setstocksize{9in}{6in}
+%\setstocksize{6.875in}{4.25in}
+%\setstocksize{168mm}{125mm}
+%\setstocksize{7in}{4.25in}
+%\setstocksize{6.5in}{4.25in}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
+\setlength{\trimtop}{0pt}
+\setlength{\trimedge}{\stockwidth}
+\addtolength{\trimedge}{-\paperwidth}
+\linespread{1.1}
+\tolerance 1414
+\hbadness 1414
+\emergencystretch 1.5em
+\hfuzz 0.3pt
+\widowpenalty=10000
+\clubpenalty=10000
+%\finalhyphendemerits=10000
+\setlength{\parskip}{0pt}
+\normalfont
+\setlxvchars\setxlvchars
+\settypeblocksize{*}{.80\stockwidth}{1.32}
+\setlrmargins{*}{*}{1.618} % golden ratio again for left/right margins
+\setheaderspaces{*}{*}{.125}
+\setulmargins{*}{*}{1.618}
+\checkandfixthelayout
+\newlength{\AfterFancyBreakMin}
+\setlength{\AfterFancyBreakMin}{3\baselineskip}
+\newcommand{\interlude}[1]{\plainfancybreak{\AfterFancyBreakMin}{1}{#1}}
+\setlength{\cftbeforechapterskip}{0pt}
+\makeatletter\renewcommand{\printchapternum}{\chapnumfont
+\numtoName{\c@chapter}}
+\makeatother
+\setlength{\cftbeforepartskip}{\baselineskip}
+\setlength{\cftchapternumwidth}{.5\textwidth}
+\frenchspacing
+\makepagestyle{ebook}
+\makeevenhead{ebook}%
+{\normalfont\thepage%\ \thepart
+}{\normalfont\scshape\thetitle}{}
+
+\makeoddhead{ebook}%
+{}{\normalfont\scshape\theauthor}{%\numtoName{\thechapter}\
+\normalfont\thepage}
+\pagestyle{ebook}
+\setlength{\parindent}{1.5 em}
+\aliaspagestyle{title}{empty}
+\newcommand{\emphqitem}[2]{\qitem{\textit{#1}}{#2}}
+\makeatletter\renewcommand{\@maketitle}{%
+  \let\footnote\@mem@titlefootkill
+  \newpage
+  \null
+  \vskip 2em%
+        \vspace*{\droptitle}
+  \maketitlehooka
+  {\@bspretitle \HUGE\scshape\@title \@bsposttitle}
+  \maketitlehookb
+  {\@bspreauthor \normalfont\scshape\@author \@bspostauthor}
+  \maketitlehookc
+  \maketitlehookd
+  \par
+  \vskip 1.5em}
+\makeatother
+
+\newcommand{\psz}[1]{\thispagestyle{empty}
+      \begin{center}
+       \includegraphics[width=45mm]{psz/#1.jpg}
+      \end{center}}
+      
+\newcommand{\chpi}[1]{
+      \begin{center}
+       \includegraphics[width=5in]{ch/#1.jpg}
+      \end{center}}
+
+\renewcommand\thesection{\Roman{section}} 
+
+\title{Impugned By A Peasant\\\& Other Stories}
+\author{Frank Key}
+\setcounter{tocdepth}{0}
+\setsecnumdepth{part}
+\maxsecnumdepth{part}
+
+%\usepackage{layouts}[2001/04/29]
+\usepackage{url}
+\usepackage{fixltx2e}
+\usepackage{alltt}
+\usepackage{graphicx}
+\usepackage{dpfloat} 
+\usepackage{verse}
+\checkandfixthelayout
+\pagestyle{plain}
+\makeindex
+\begin{document}
+\frontmatter
+\maketitle
+\include{sections/Copyright}
+\tableofcontents*
+\include{sections/authorsnote}
+\mainmatter
+\include{sections/disfigured_nuncio}
+\include{sections/bungled_heists}
+\include{sections/from_wivenhoe_to_cuxhaven_by_way_of_ponders_end}
+\include{sections/gravediggers_glade}
+\include{sections/woodcutter}
+\include{sections/potters_arch_or_potters_crank}
+\include{sections/how_to_de-fang_your_venomous_serpent}
+\include{sections/hoofprint_advice}
+\include{sections/with_my_fife_and_my_drum}
+\include{sections/advice_regarding_vinegar}
+\include{sections/character_flaw_of_mediaeval_peasant}
+\include{sections/along_the_banks_of_the_smem}
+\include{sections/judith_and_holofernes}
+\include{sections/confessions_of_a_door_to_door_monkey_salesman}
+\include{sections/a_trip_from_throm_to_bosis}
+\include{sections/binder_the_49_symphonies}
+\include{sections/tiny_enid_and_the_dustbin_of_history}
+\include{sections/impugned_by_a_peasant}
+\include{sections/to_knit_knots}
+\include{sections/instances_of_inanity_in_blodgett}
+\include{sections/that_awful_mess_at_sludge_hall_farm}
+\include{sections/the_muscular_fool_and_the_other_fool}
+\include{sections/sieve_project}
+\include{sections/elks_in_snow}
+\include{sections/those_wednesday_potato_nights}
+\include{sections/crows_and_hares}
+\include{sections/pitfalls_on_the_path_to_sainthood}
+\include{sections/lhomme_qui_grogne}
+\include{sections/pelican}
+\include{sections/dobson's_kitchen_groanings}
+\include{sections/the_cruel_sea}
+\include{sections/little_ruskin_episode_one}
+\include{sections/magnet_boy!_the_boy_magnet}
+\include{sections/notes_on_skippy}
+\include{sections/lars_porsena_of_clusium}
+\include{sections/sick_amid_the_blossoms}
+\include{sections/whither_the_bint_of_shelmerdox}
+\include{sections/inky_puck_stampings}
+\include{sections/on_the_balcony}
+\include{sections/two_jaunts_with_uncle_lars}
+\include{sections/the_cosmological_blurtings}
+\include{sections/the_puckington_tunnels}
+\include{sections/further_adventures_of_little_ruskin}
+\include{sections/the_temple_of_hoon_fat_gaar}
+\include{sections/chumpot_advertisement}
+\include{sections/dobson_dinghy}
+\include{sections/meetings_with_remarkable_owls}
+\include{sections/a_memoir_of_stick_insect_island}
+\include{sections/my_winch}
+\include{sections/the_bell_and_the_toads_etcetera}
+\include{sections/the_roads_to_jaywick}
+\include{sections/other_glubbs}
+\include{sections/bubbles_surge_from_froth}
+\include{sections/new_beerpint_book}
+\include{sections/groovy}
+\include{sections/chucking-out_time_at_the_cow_and_pins}
+\include{sections/from_the_diary_of_heliogabalus}
+\include{sections/hoistings}
+\include{sections/the_lost_lozenge}
+\include{sections/twelfth_night}
+\include{sections/buttonmakers_doldrums}
+\include{sections/in_the_lab_at_midnight}
+\include{sections/binders_fogwife}
+\include{sections/lugubrious_fool}
+\include{sections/municipal_monkey_vampires}
+\include{sections/kiss_of_the_woohoohoodiwoo_woman}
+\include{sections/brains_in_bags}
+\include{sections/chauncey}
+\include{sections/my_pellets}
+\include{sections/plums}
+\include{sections/swans_on_a_towpath}
+\include{sections/conquistador}
+\include{sections/i_had_a_hammer}
+\include{sections/a_celebration_of_the_bufflehead}
+\include{sections/blodgett_in_the_sewers}
+\include{sections/songs_my_mother_taught_me}
+\include{sections/the_fainting_goat}
+\include{sections/beset_by_hobgoblins}
+\include{sections/potty_baron}
+\include{sections/detective_story}
+\include{sections/sponges_of_the_lumpenproletariat}
+\include{sections/unsung_victorian_genius}
+\include{sections/seven_stints}
+\include{sections/swans_in_thunderstorms}
+\include{sections/potsdam_windbag}
+\include{sections/the_freezing_coachman}
+\include{sections/channel_four_news_at_schubert's_grave}
+\include{sections/dobsons_cacodaemon}
+\include{sections/pallid_ada_the_crippled_heiress}
+\include{sections/four_last_songs}
+\include{sections/chunk_theory}
+\include{sections/off_at_a_tangent}
+\include{sections/food_for_sport}
+\include{sections/prudence_foxglove_sunday_schools}
+\include{sections/dobsons_card_index}
+\include{sections/unregistered_ice_cream_vans}
+\include{sections/boiled_black_broth_and_cornets}
+\include{sections/lord_love_a_duck}
+\include{sections/pebbleheads_christmas_annual}
+\include{sections/in_search_of_plunkett}
+\include{sections/shipwreck_is_everywhere}
+\include{sections/babinsky}
+\include{sections/blodgett_boils_my_lady_kent's_pudding}
+\include{sections/piling_ossa_upon_pelion}
+\include{sections/spillage_on_cambric}
+\include{sections/vargas}
+\include{sections/all_around_my_hat}
+\include{sections/plutarch_versus_petrarch}
+\include{sections/a_magic_trick}
+\include{sections/wolves_and_fruit}
+\include{sections/flies_in_mud}
+\include{sections/unconscious_squirrel}
+\include{sections/tin_vase}
+\include{sections/the_last_ditch}
+
+\backmatter
+
+\end{document}
