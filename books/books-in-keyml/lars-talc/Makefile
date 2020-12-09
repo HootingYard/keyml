@@ -2,7 +2,8 @@
 #
 BOOK=lars-talc
 DATA=.
-CODE=$(abspath ../../code)
-OUTPUT=$(abspath ../../bookfiles)
-WORKSPACE=$(abspath ../../workspace)
+CODE=../../../../archive_management/src/hootingyard/greasepencil
+OUTPUT=$(HOME)/Documents/hootingyard-books
+WORKSPACE=$(HOME)/hootingyard-workspace
 include $(CODE)/Makefile.inc
+

@@ -2,13 +2,14 @@
 #
 BOOK=bigbook
 DATA=.
-CODE=../../code
-OUTPUT=../../bookfiles
-WORKSPACE=../../workspace
+CODE=../../../../archive_management/src/hootingyard/greasepencil
+OUTPUT=$(HOME)/Documents/hootingyard-books
+WORKSPACE=$(HOME)/hootingyard-workspace
+include $(CODE)/Makefile.inc
 
 include $(CODE)/Makefile.inc
 
-.phony :: update checkimages
+.phony :: update
 
 ARCHIVE_URL = http://hootingyard.org/archives/category/prose
 ARCHIVE     = $(WORKSPACE)/prose-archive
@@ -27,9 +28,7 @@ update :
 	python $(CODE)/update-big-book.py $(ARCHIVE) $(DATA) $(CODE)
 	cd $(DATA)/Text ; tidy --tidy-mark no -utf8 -modify -indent -wrap 1000000 -quiet * || exit 0
 
-checkimages:
-	python2.7 $(CODE)/check-bigbook-images.py $(DATA)
-
 download :
 	mkdir -p $(ARCHIVE)
+	rm -f prose-*.html
 	python $(CODE)/download-prose-archive.py $(ARCHIVE_URL) $(ARCHIVE)
