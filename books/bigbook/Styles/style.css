@@ -67,6 +67,9 @@ p.textbreak   { text-indent: 0; text-align: center; margin-top: 1em; font-family
 p.byline   { font-family: 'Opera'; text-indent: 0; margin-bottom: 2em; text-align: left; }
 
 p.textbreak   { text-indent: 0; text-align: center; margin-top: 1em; }
+div.contents p   { text-indent:0;  }
+
+
 strong.footnote { color:red; }
 
 span.asterisk { color:red; font-style: bold; }
@@ -78,9 +81,9 @@ div.illustration { margin:2em; }
 p.images         { text-align:center; }
 p.caption        { margin-top:1mm; font-size:90%; text-align:center; font-weight:bold; text-indent:0; }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
+    display: inline-block;
+    margin-left: 0.25em;
+    margin-right: 0.25em; }
 
 img.aligncenter  {  }
 img.alignleft    {  }
@@ -91,7 +94,8 @@ img.size-large   { width:100%; }
 img.fullwidth    { width:100%; }
 
 div.illustration { margin:2em;  }
-div.illustrationfullwidth { width: 100%;  }
+div.illustrationfullwidth { margin-top: 1em; margin-bottom: 1em; width: 100%;  }
+
 p.imagerow { text-align:center; }
 p.caption { margin-top:1mm; font-size:90%; text-align:center; font-weight:bold; text-indent:0; }
 

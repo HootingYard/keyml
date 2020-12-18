@@ -90,8 +90,9 @@ img.small        { width:15%; }
 img.size-large   { width:100%; }
 img.fullwidth    { width:100%; }
 
-div.illustration { margin:2em;  }
-div.illustrationfullwidth { width: 100%;  }
+div.illustration { margin:2em;c  }
+div.illustrationfullwidth { margin-top: 1em; margin-bottom: 1em; width: 100%;  }
+
 p.imagerow { text-align:center; }
 p.caption { margin-top:1mm; font-size:90%; text-align:center; font-weight:bold; text-indent:0; }
 
