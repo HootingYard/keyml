@@ -2,11 +2,9 @@
 #
 BOOK=bigbook
 DATA=.
-CODE=../../../../archive_management/src/hootingyard/greasepencil
+CODE=../../../greasepencil
 OUTPUT=$(HOME)/Documents/hootingyard-books
 WORKSPACE=$(HOME)/hootingyard-workspace
-include $(CODE)/Makefile.inc
-
 include $(CODE)/Makefile.inc
 
 .phony :: update
@@ -20,10 +18,10 @@ update :
 	mkdir -p $(DATA)/Images
 	mkdir -p $(DATA)/Text
 	mkdir -p $(DATA)/Styles
-	cp $(TEMPLATES)/index.html  $(DATA)/
-	cp $(TEMPLATES)/style.css   $(DATA)/Styles/
-	cp $(TEMPLATES)/title.xhtml $(DATA)/Text/
-	cp $(TEMPLATES)/cover.png   $(DATA)/
+#	cp $(TEMPLATES)/index.html  $(DATA)/
+#	cp $(TEMPLATES)/style.css   $(DATA)/Styles/
+#	cp $(TEMPLATES)/title.xhtml $(DATA)/Text/
+#	cp $(TEMPLATES)/cover.png   $(DATA)/
 #	cp $(TEMPLATES)/bigbookinfo.json $(DATA)/bookinfo.json
 	python $(CODE)/update-big-book.py $(ARCHIVE) $(DATA) $(CODE)
 	cd $(DATA)/Text ; tidy --tidy-mark no -utf8 -modify -indent -wrap 1000000 -quiet * || exit 0
