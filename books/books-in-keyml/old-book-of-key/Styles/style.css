@@ -29,6 +29,8 @@
              src: url('../Fonts/opera-lyrics-smooth.ttf') format('truetype');
 }
 
+span.broken { color: blue; text-decoration: line-through; }
+
 body { font-family: 'Libertine'; margin-left: 20%; margin-right: 25%; }
 
 a             { text-decoration:none; }
@@ -41,9 +43,19 @@ a.internal-pdf:after    { content:" [PDF]" }
 
 h1 { font-weight: normal; font-family: 'Opera'; text-transform: uppercase; text-align: left; }
 h1.plain { text-transform: uppercase; font-family: 'Libertine'; text-align: left; }
-h1.center { margin-top: 2em; font-family: 'Opera'; text-align: center; }
+h1.center { font-family: 'Opera'; text-align: center; }
+
 h2 { font-weight: normal; font-family: 'Opera'; text-transform: uppercase; margin-top: 2em; text-align: left; }
+h2.center { font-weight: normal; font-family: 'Opera'; text-transform: uppercase; margin-top: 2em; text-align: center;}
 h2.preen { font-weight: normal; font-family: 'Opera'; text-transform: lowercase; margin-top: 2em; text-align: left; }
+
+h1.discrete, h2.discrete {
+    font-family: 'Libertine';
+    font-size: 120%;
+    font-weight: bold;
+    text-transform: none;
+    text-align: left;
+    margin-below: 0.5em; }
 
 blockquote { margin-left: 5%; margin-right: 5%; }
 
@@ -67,10 +79,14 @@ p.textbreak   { text-indent: 0; text-align: center; margin-top: 1em; font-family
 p.byline   { font-family: 'Opera'; text-indent: 0; margin-bottom: 2em; text-align: left; }
 
 p.textbreak   { text-indent: 0; text-align: center; margin-top: 1em; }
+div.contents p   { text-indent:0;  }
+
+
 strong.footnote { color:red; }
 
 span.asterisk { color:red; font-style: bold; }
 span.mark { color:red; font-style: bold; }
+span.strike { text-decoration: line-through; }
 
 em em { font-style: normal; }
 
@@ -78,9 +94,9 @@ div.illustration { margin:2em; }
 p.images         { text-align:center; }
 p.caption        { margin-top:1mm; font-size:90%; text-align:center; font-weight:bold; text-indent:0; }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
+    display: inline-block;
+    margin-left: 0.25em;
+    margin-right: 0.25em; }
 
 img.aligncenter  {  }
 img.alignleft    {  }
@@ -90,7 +106,7 @@ img.small        { width:15%; }
 img.size-large   { width:100%; }
 img.fullwidth    { width:100%; }
 
-div.illustration { margin:2em;c  }
+div.illustration { margin:2em;  }
 div.illustrationfullwidth { margin-top: 1em; margin-bottom: 1em; width: 100%;  }
 
 p.imagerow { text-align:center; }
