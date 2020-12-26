@@ -1,5 +1,14 @@
 /* Hooting Yard website CSS style sheet */
 
+/* the browser version needs wide margins to be readable */
+body {
+    margin-left: 20%;
+    margin-right: 25%;
+}
+
+
+/* Fonts ------------------------------------------------------------------ */
+
 @font-face {
     font-family: 'Libertine';
     src: url('../Fonts/LinLibertine_Rah.ttf') format('truetype');
@@ -25,61 +34,146 @@
     font-style: italic;
 }
 
-@font-face { font-family: 'Opera' ; 
-             src: url('../Fonts/opera-lyrics-smooth.ttf') format('truetype');
+@font-face {
+    font-family: 'Opera' ; 
+    src: url('../Fonts/opera-lyrics-smooth.ttf') format('truetype');
 }
 
-span.broken { color: blue; text-decoration: line-through; }
 
-body { font-family: 'Libertine'; margin-left: 20%; margin-right: 25%; }
-
-a             { text-decoration:none; }
-a.internal    { text-decoration:none; }
-a.hootingyard { text-decoration:underline; }
-a.external    { text-decoration:underline; }
-a.internal-image:after  { content:" [Image]" }
-a.internal-audio:after  { content:" [Audio]" }
-a.internal-pdf:after    { content:" [PDF]" }
-
-h1 { font-weight: normal; font-family: 'Opera'; text-transform: uppercase; text-align: left; }
-h1.plain { text-transform: uppercase; font-family: 'Libertine'; text-align: left; }
-h1.center { font-family: 'Opera'; text-align: center; }
-
-h2 { font-weight: normal; font-family: 'Opera'; text-transform: uppercase; margin-top: 2em; text-align: left; }
-h2.center { font-weight: normal; font-family: 'Opera'; text-transform: uppercase; margin-top: 2em; text-align: center;}
-h2.preen { font-weight: normal; font-family: 'Opera'; text-transform: lowercase; margin-top: 2em; text-align: left; }
-
-h1.discrete, h2.discrete {
+body {
     font-family: 'Libertine';
-    font-size: 120%;
+    font-size: 120%;            /* Libertine seems a little small */
+}
+
+/* Headings ------------------------------------------------------------- */
+
+
+h1 {
+    font-size: 180%;
+    font-weight: normal;
+    font-family: 'Opera';
+    text-transform: uppercase;
+    text-align: left;
+}
+h1.plain {
+    font-family: 'Libertine';
+}
+h1.center {
+    text-align: center;
+}
+
+h2 {
+    font-size: 140%;
+    font-weight: normal;
+    font-family: 'Opera';
+    text-transform: uppercase;
+    margin-top: 2em;
+    text-align: left; }
+h2.center {
+    text-align: center;
+}
+h2.preen {
+    text-transform: lowercase;
+    text-align: left;
+}
+
+h1.discrete, h2.discrete {    /* the same as bold paragraph text */
+    font-family: 'Libertine';
     font-weight: bold;
     text-transform: none;
     text-align: left;
-    margin-below: 0.5em; }
+    margin-below: 0.5em;
+}
+
+p.byline {
+    font-family: 'Opera';
+    text-indent: 0;
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+
+/* Paragraphs and lists ------------------------------------------------------------- */
+
+
+/* horizontal rules break paragraphs, and are usually invisible */
+hr {
+    border: none;
+    overflow: visible;
+    text-align: center;
+    height: 0px;
+}
+
+
+/* this looks good in a browser */
+p {
+    margin-top:0;
+    margin-bottom:0;
+    text-indent:2em;
+    line-height:1.3em;
+    text-align:justify;
+}
+
+/* this looks good in an ebook reader:*/
+/* p { 
+    margin-top:0;
+    margin-bottom:0;
+    text-indent:2em;
+    text-align:justify;
+} */
+
+p.center      { text-indent: 0; text-align:center; }
+
+/* Paragraphs separated from the paragraph above */
+p.breakabove, p.footnote  { text-indent: 0; margin-top: 0.5em;  }
+p.source, p.editor        { text-indent: 0; margin-top: 0.5em; font-style: italics; }
+
+p.postwebpage { text-indent: 0; margin-top: 4mm; font-size: 60%; }
+
+/* paragraphs containing <br/> linebreaks */
+p.linebreaks  { text-indent: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
+p.verse       { text-indent: 0; margin-top: 0.5em; margin-bottom: 0.5em; font-style: italic;  }
+
+/* Big Book contents items are paragraphs (in ebooks the items are lists) */ 
+div.contents p   { text-indent:0; text-align: left; }
+
+/* For decorative breaks between sets of paragraphs. The content is typically "*". */
+p.textbreak   { text-indent: 0; text-align: center; margin-top: 1em; font-family: 'Opera'; }
+
+/* for the "this page intentionally left blank" message in an empty page */
+p.invisible   { display: none; }
+
+/* list need extra vertical spacing to not look cramped  */
+li { line-height:1.5em; text-align:left; }
+
+/* Do not indent first lines of paragraphs where there is white space above */
+hr + p,
+ul + p,
+ol + p,
+p.textbreak + p,
+p.verse + p,
+p.linebreaks + p,
+h1 + p, 
+h2 + p,
+div.illustration + p,
+div.verse + p,
+p.byline + p,
+div.blockparagraphs + p,
+blockquote + p,
+blockquote > p:first-of-type { text-indent: 0; }
+
+/* Text blocks ----------------------------------------------------------- */
+
 
 blockquote { margin-left: 5%; margin-right: 5%; }
 
-/* this looks good in a browser, but not on an ebook reader: */
-p { font-size: 120%; margin-top:0; margin-bottom:0; text-indent:2em; line-height:1.3em; text-align:justify; }
-/* p { margin-top:0; margin-bottom:0; text-indent:2em; text-align:justify; } */
+div.blockparagraphs p { text-indent:0;  margin-top: 1em; }
 
-li { font-size: 120%; line-height:1.3em; text-align:left; }
+div.verse     { margin-bottom: 1em; }
+div.verse p   { text-indent: 0; margin-top: 1em; text-align:left; font-style:italic; }
 
-p.center      { text-indent:0;  text-align:center; }
-p.noindent    { text-indent:0;  }
-p.linebreaks  { text-indent:0; margin-top: 0.5em; margin-bottom: 0.5em; }
-p.breakabove  { text-indent:0; margin-top: 0.5em;  }
-p.footnote    { text-indent:0; margin-top: 0.5em;  }
-p.verse       { text-indent:0; margin-top: 0.5em; margin-bottom: 0.5em; font-style: italic;  }
-p.postwebpage { text-indent:0; margin-top:4mm; font-size: 50%; }
-p.source      { text-indent: 0; margin-top: 1em; font-style: italics; }
-p.editor      { text-indent: 0; margin-top: 1em; font-style: italics; }
-p.postwebpage { text-indent:0; margin-top:4mm; font-size: 60%; }
-p.textbreak   { text-indent: 0; text-align: center; margin-top: 1em; font-family: 'Opera'; }
-p.byline   { font-family: 'Opera'; text-indent: 0; margin-bottom: 2em; text-align: left; }
 
-p.textbreak   { text-indent: 0; text-align: center; margin-top: 1em; }
-div.contents p   { text-indent:0;  }
+/* Inline Text ---------------------------------------------------------------- */
 
 
 strong.footnote { color:red; }
@@ -90,36 +184,59 @@ span.strike { text-decoration: line-through; }
 
 em em { font-style: normal; }
 
-div.illustration { margin:2em; }
-p.images         { text-align:center; }
-p.caption        { margin-top:1mm; font-size:90%; text-align:center; font-weight:bold; text-indent:0; }
-img {
-    display: inline-block;
-    margin-left: 0.25em;
-    margin-right: 0.25em; }
+a             { text-decoration:none; }
+a.internal    {  }
+a.internal-image:after  { content:" [Image]" }
+a.internal-audio:after  { content:" [Audio]" }
+a.internal-pdf:after    { content:" [PDF]" }
+a.hootingyard { text-decoration:underline; }
+a.external    { text-decoration:underline; }
+a.broken      { text-decoration:line-through; }
 
-img.aligncenter  {  }
-img.alignleft    {  }
-img.size-full    { width:80%; }
-img.size-medium  { width:60%; }
-img.small        { width:15%; }
-img.size-large   { width:100%; }
+/* Unrecoverably broken links. */
+span.broken { color: blue; text-decoration: line-through; }
+
+
+/* Illustrations ----------------------------------------------------------- */
+
+div.illustration {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    /* border-style: solid; border-color: red; */
+}
+
+p.imagerow {
+    text-indent:0;
+    text-align:center;
+    /* border-style: solid; border-color: blue;  background-color: lightblue; */
+    margin-below: 0;
+}
+p.imagerow a {
+    text-decoration:none;
+}
+p.caption {
+    margin-top:1mm;
+    font-size:90%;
+    text-align:center;
+    font-weight:bold;
+    text-indent:0;
+}
+
+img {
+    display: inline-block; /* display in a row inside p.imagerow */
+    width: 60%;            /* medium size by default */
+    /*margin-left: 0.25em;
+    margin-right: 0.25em;
+    margin-below: 0;*/
+    /* border-style: solid; border-color: green; */
+}
+
+img.small        { width:20%; }
+img.size-medium  { width:50%; }
+img.size-large   { width:80%; }
+img.size-full    { width:100%; }
 img.fullwidth    { width:100%; }
 
-div.illustration { margin:2em;  }
-div.illustrationfullwidth { margin-top: 1em; margin-bottom: 1em; width: 100%;  }
 
-p.imagerow { text-align:center; }
-p.caption { margin-top:1mm; font-size:90%; text-align:center; font-weight:bold; text-indent:0; }
-
-div.blockparagraphs p { text-indent:0;  margin-top: 1em; }
-
-div.verse     { margin-left: 5%; margin-right: 5%; margin-bottom: 1em; }
-div.verse p   { text-indent: 0; margin-top: 1em; text-align:left; font-style:italic; }
-
-
-strong.footnote { color:red; }
-p.footnote span.mark { font-weight: bold; color: red; }
-span.asterisk        { font-weight: bold; color: red; }
-   
 /* end */

@@ -2,7 +2,7 @@
 #
 BOOK=old-book-of-key
 DATA=.
-CODE=../../../../archive_management/src/hootingyard/greasepencil
+CODE=$(HOME)/Projects/HootingYard/greasepencil
 OUTPUT=$(HOME)/Documents/hootingyard-books
 WORKSPACE=$(HOME)/hootingyard-workspace
 include $(CODE)/Makefile.inc
