@@ -131,7 +131,7 @@ p.source, p.editor        { text-indent: 0; margin-top: 0.5em; font-style: itali
 p.postwebpage { text-indent: 0; margin-top: 4mm; font-size: 60%; }
 
 /* paragraphs containing <br/> linebreaks */
-p.linebreaks  { text-indent: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
+p.lines       { text-indent: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
 p.verse       { text-indent: 0; margin-top: 0.5em; margin-bottom: 0.5em; font-style: italic;  }
 
 /* Big Book contents items are paragraphs (in ebooks the items are lists) */ 
@@ -148,19 +148,20 @@ li { line-height:1.5em; text-align:left; }
 
 /* Do not indent first lines of paragraphs where there is white space above */
 hr + p,
-ul + p,
 ol + p,
-p.textbreak + p,
 p.verse + p,
-p.linebreaks + p,
 h1 + p, 
 h2 + p,
 div.illustration + p,
 div.verse + p,
 p.byline + p,
-div.blockparagraphs + p,
 blockquote + p,
 blockquote > p:first-of-type { text-indent: 0; }
+
+ul + p,
+p.textbreak + p,
+div.blockparagraphs + p { text-indent: 0; margin-above: 0.5em; }
+
 
 /* Text blocks ----------------------------------------------------------- */
 
