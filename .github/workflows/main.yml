@@ -36,10 +36,12 @@ jobs:
         with:
           python-version: '>=3.7'
         
+      - name: Install XHTML DTD package
+        run: sudo apt-get install w3c-sgml-lib
+
       - name: Install bigbook.py's required Python packages
-        run: |
-          cd $GITHUB_WORKSPACE/ubercoordinator
-          pip3 install -r requirements.txt
+        run:
+          pip3 install -r $GITHUB_WORKSPACE/ubercoordinatorrequirements.txt
 
       - name: Test Big Book of Key using bigbook.py
         run: |
