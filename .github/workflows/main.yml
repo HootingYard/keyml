@@ -41,7 +41,7 @@ jobs:
 
       - name: Install bigbook.py's required Python packages
         run:
-          pip3 install -r $GITHUB_WORKSPACE/ubercoordinatorrequirements.txt
+          pip3 install -r $GITHUB_WORKSPACE/ubercoordinator/requirements.txt
 
       - name: Test Big Book of Key using bigbook.py
         run: |
