@@ -1,0 +1,47 @@
+# This tests that the "Big Book of Key" has well-formed "KeyML" XHTML files,
+# no broken links and no invalid image files. The script to do this is
+# 'bigbook.py', which is kept in the 'ubercoordinator' repository.
+
+name: CI
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout keyml, for access to the the 'bigbook' directory
+        uses: actions/checkout@v2
+        with:
+          path: keyml
+
+      - name: Checkout ubercoordinator, for access to the 'bigbook.py' tool 
+        uses: actions/checkout@v2
+        with:
+          repository: HootingYard/ubercoordinator
+          path: ubercoordinator
+
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.1
+        with:
+          python-version: '>=3.7'
+        
+      - name: Install bigbook.py's required Python packages
+        run: |
+          cd $GITHUB_WORKSPACE/ubercoordinator
+          pip3 install -r requirements.txt
+
+      - name: Test Big Book of Key using bigbook.py
+        run: |
+          cd $GITHUB_WORKSPACE/keyml/books/bigbook
+          python3 $GITHUB_WORKSPACE/ubercoordinator/src/bigbook.py -i Text/*.xhtml
