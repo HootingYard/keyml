@@ -46,5 +46,5 @@ jobs:
           cd $GITHUB_WORKSPACE/keyml/books/bigbook
           python3 $GITHUB_WORKSPACE/ubercoordinator/src/bigbook.py \
                -d $GITHUB_WORKSPACE/ubercoordinator/src/bigbook.dtd \
-               -s $GITHUB_WORKSPACE/ubercoordinator/src/bigbook.sch \
+               -x $GITHUB_WORKSPACE/ubercoordinator/src/bigbook.sch \
                -i Text/*.xhtml
