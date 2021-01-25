@@ -1,0 +1,715 @@
+<?xml version="1.0"?>
+<!DOCTYPE book SYSTEM "book.dtd">
+<book file="principia-dobsonia" year="2021" language="en-GB" uuid="urn:uuid:0e2f524f-3eff-4374-8af4-1cc845f7d8fb" date="2021-01-22">
+  
+  <title>Principia Dobsonia</title>
+  
+  <description>
+    Frank Key reports on Dobson, Hooting Yard's out-of-print pamphleteer.
+  </description>
+
+  <subject>Hooting Yard</subject>
+  
+  <author pronoun="he" file-as="Key, Frank" href="http://hootingyard.github.io">Frank Key</author>
+  
+  <editor>Glyn Webster</editor>
+  
+  <publisher href="http://hootingyard.github.com">
+    Hooting Yard Archivists <em>a.k.a. The Soup Committee</em>
+  </publisher>
+  
+  <styling>
+    <style file="style.css"/>
+    <font file="LinLibertine_Rah.ttf"/>
+    <font file="LinLibertine_RBah.ttf"/>
+    <font file="LinLibertine_RBIah.ttf"/>
+    <font file="LinLibertine_RIah.ttf"/>
+    <font file="opera-lyrics-smooth.ttf"/>
+    <font file="fontawesome-webfont.ttf"/>
+  </styling>
+
+  <contents>
+    <open-at file="cover.html"/>
+
+    <section toc="no"> 
+      <title>Front Matter</title>
+      <section template="yes" file="cover.html"> <title>Cover</title> </section>
+      <section template="yes" file="title.html" id="title"> <title>Title Page</title> </section>
+      <section template="yes" file="copyright.html" id="copyright"> <title>Copyright</title> </section>
+      <section template="yes" file="toc.html" id="toc">  <title>Table of Contents</title> </section>
+    </section>
+    
+    <section separate="yes">
+      <title><em>Index Dobsonia</em></title>  <!-- "Bibliotheca Dobsonia"? -->
+      
+      <!-- "I am indebted to reader Mike Jennings who, despite being banished to 
+           a pompous land, has, in his own words, been “compiling these tentative 
+           notes toward a Dobson bibliography”"  
+           With a bit of work, these can be hyperlinked to the stories they are mentioned in. -->
+
+      <section file="2013-10-09-a-pair-of-pamphlets-out-of-print.xhtml">
+        <!-- We'll start the book with this illustrated page -->
+        <title>A Pair of Pamphlets (out of print)</title>  
+      </section>
+      <section file="2010-01-15-104-pamphlets-out-of-print.xhtml"> <title>Pamphlets 1–104</title> </section>
+      <section file="2011-01-14-128-pamphlets-out-of-print.xhtml"> <title>Pamphlets 105–128</title> </section>
+      <section file="2011-12-29-139-pamphlets-out-of-print.xhtml"> <title>Pamphlets 127–139</title> </section>
+      <section file="2011-12-30-140-pamphlets-out-of-print.xhtml"> <title>Pamphlet 140</title> </section>
+      <section file="2013-01-08-160-pamphlets-out-of-print.xhtml"> <title>Pamphlets 141–160</title> </section>
+      <section file="2014-01-04-168-pamphlets-out-of-print.xhtml"> <title>Pamphlets 161–168</title> </section>
+      <section file="2016-12-22-181-pamphlets-out-of-print.xhtml"> <title>Pamphlets 169–181</title> </section>
+      <section file="2014-01-10-those-out-of-print-pamphlets.xhtml">
+        <title>Those Out of Print Pamphlets</title>
+      </section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2004</title>
+      <section file="lighthouses.xhtml"> <title>The Dobson Memorial Lecture 2004</title> </section>
+      <section file="2004-01-21-dobsoniana.xhtml"><title>Dobsoniana</title></section>
+      <section file="2004-01-16-dobson.xhtml"><title>Dobson</title></section>
+      <section file="2004-01-27-crestfallen-dan.xhtml"><title>Crestfallen Dan</title></section>
+      <section file="2004-01-31-dobsons-commentary-on-the-above.xhtml"><title>Dobson's Commentary on the Above</title></section>
+      <section file="2004-02-03-lines-written-in-a-sordid-hut.xhtml"><title>Lines Written in a Sordid Hut</title></section>
+      <section file="2004-02-04-dobson-on-badgers.xhtml"><title>Dobson on Badgers</title></section>
+      <section file="2004-02-07-recipe-related-correspondence.xhtml"><title>Recipe-related Correspondence</title></section>
+      <section file="2004-02-17-museology.xhtml"><title>Museology</title></section>
+      <section file="2004-02-18-web-revolution.xhtml"><title>Web Revolution</title></section>
+      <section file="2004-02-18-the-dobson-ubertoolbar-users-agreement.xhtml"><title>THE DOBSON ÜBERTOOLBAR USER’S AGREEMENT</title></section>
+      <section file="2004-02-24-transcript-of-a-dictaphone-recording.xhtml"><title>Transcript of a Dictaphone Recording Made by Dobson at the 1955 Festival of Argumentative Music in Ülm</title></section>
+      <section file="2004-03-01-emblem.xhtml"><title>Emblem</title></section>
+      <section file="2004-03-08-istvan-and-zoltan.xhtml"><title>Istvan 'n' Zoltan</title></section>
+      <section file="2004-03-10-istvan-and-zoltan.xhtml"><title>Istvan &amp; Zoltan</title></section>
+      <section file="2004-03-12-downy-witched-dutch-cloud-heaps-of-some-quaintest-tramontane-nephelococcugia-of-thought.xhtml"><title>Downy, Witched, Dutch Cloud-heaps of Some Quaintest Tramontane Nephelococcugia of Thought</title></section>
+      <section file="2004-03-14-a-catalogue-of-53-birds.xhtml"><title>A Catalogue of 53 Birds</title></section>
+      <section file="2004-03-16-dobsons-leech-mishap.xhtml"><title>Dobson's Leech Mishap</title></section>
+      <section file="2004-03-16-punter-hoonjaw.xhtml"><title>Punter Hoonjaw</title></section>
+      <section file="2004-03-19-whats-on-in-mustard-parva.xhtml"><title>What's on in Mustard Parva</title></section>
+      <section file="2004-03-24-dobson-dust-jacket-discovery.xhtml"><title>Dobson Dust-jacket Discovery</title></section>
+      <section file="2004-03-25-burnt-maps.xhtml"><title>Burnt Maps</title></section>
+      <section file="2004-03-27-the-birdhole-prison-riots.xhtml"><title>The Birdhole Prison Riots</title></section>
+      <section file="2004-03-31-the-encyclopaedia-of-unnecessary-knowledge.xhtml"><title>The Encyclopaedia of Unnecessary Knowledge</title></section>
+      <section file="2004-04-01-is-this-dobson.xhtml"><title>Is This Dobson?</title></section>
+      <section file="2004-04-05-that-dobson-photograph.xhtml"><title>That “Dobson” Photograph</title></section>
+      <section file="2004-04-08-publishing-news.xhtml"><title>Publishing News</title></section>
+      <section file="2004-04-13-a-patch-of-ectoplasm.xhtml"><title>A Patch of Ectoplasm</title></section>
+      <section file="2004-04-13-mrs-gubbins-emoticon-workshop.xhtml"><title>Mrs Gubbins' Emoticon Workshop</title></section>
+      <section file="2004-04-26-dobson-in-residence.xhtml"><title>Dobson in Residence</title></section>
+      <section file="2004-04-28-mrs-gubbins-an-update.xhtml"><title>Mrs Gubbins : An Update</title></section>
+      <section file="2004-05-09-was-dobson-stalin.xhtml"><title>Was Dobson Stalin?</title></section>
+      <section file="2004-05-10-pang-hill-news.xhtml"><title>Pang Hill News</title></section>
+      <section file="2004-05-14-croissants.xhtml"><title>Croissants</title></section>
+      <section file="2004-05-14-pin-bulletin-number-one.xhtml"><title>Pin Bulletin Number One</title></section>
+      <section file="2004-05-19-climb-every-mountain.xhtml"><title>Climb Every Mountain</title></section>
+      <section file="2004-05-23-since-youve-been-gone.xhtml"><title>Since You've Been Gone</title></section>
+      <section file="2004-06-16-dobsonday.xhtml"><title>Dobsonday</title></section>
+      <section file="2004-06-18-44-curlews.xhtml"><title>44 Curlews</title></section>
+      <section file="2004-06-22-the-potus-and-the-beast.xhtml"><title>The Potus and the Beast</title></section>
+      <section file="2004-06-26-dobsons-wit.xhtml"><title>Dobson's Wit</title></section>
+      <section file="2004-06-28-the-teutonic-memory-banks-of-mister-blatfinch.xhtml"><title>The Teutonic Memory-banks of Mister Blatfinch</title></section>
+      <section file="2004-07-08-dobsons-heir.xhtml"><title>Dobson's Heir?</title></section>
+      <section file="2004-07-13-club-hooting-yard.xhtml"><title>Club Hooting Yard</title></section>
+      <section file="2004-07-13-land-of-nod-news.xhtml"><title>Land of Nod News</title></section>
+      <section file="2004-07-19-stalking-a-toad-headed-robber.xhtml"><title>Stalking a Toad-headed Robber</title></section>
+      <section file="2004-07-21-curd.xhtml"><title>Curd</title></section>
+      <section file="2004-07-23-the-ubiquity-of-dobson.xhtml"><title>The Ubiquity of Dobson</title></section>
+      <section file="2004-07-30-america.xhtml"><title>America</title></section>
+      <section file="2004-07-30-botched-trepanning-operations.xhtml"><title>Botched Trepanning Operations</title></section>
+      <section file="2004-08-02-the-spangles-reference-library.xhtml"><title>The Spangles Reference Library</title></section>
+      <section file="2004-08-12-marigold-chews-shed.xhtml"><title>Marigold Chew's Shed</title></section>
+      <section file="2004-08-14-bode-code.xhtml"><title>Bode Code</title></section>
+      <section file="2004-08-16-snowflake-and-prig.xhtml"><title>Snowflake and Prig</title></section>
+      <section file="2004-08-22-mythical-birds.xhtml"><title>Mythical Birds</title></section>
+      <section file="2004-08-31-grots.xhtml"><title>Grots</title></section>
+      <section file="2004-09-02-fear-of-squirrels.xhtml"><title>Fear of Squirrels</title></section>
+      <section file="2004-09-07-name-that-cur.xhtml"><title>Name That Cur</title></section>
+      <section file="2004-09-08-escape-from-a-ship-on-fire.xhtml"><title>Escape From a Ship on Fire</title></section>
+      <section file="2004-09-10-dobsons-favourite-film.xhtml"><title>Dobson's Favourite Film</title></section>
+      <section file="2004-09-13-how-bodgers-spinney-got-its-name.xhtml"><title>How Bodger's Spinney Got Its Name</title></section>
+      <section file="2004-09-20-pod-person-from-porlock.xhtml"><title>Pod Person From Porlock</title></section>
+      <section file="2004-10-02-the-good-bee.xhtml"><title>The Good Bee</title></section>
+      <section file="2004-10-04-more-about-ah-fang.xhtml"><title>More About Ah-Fang</title></section>
+      <section file="2004-10-07-dobsons-declaration.xhtml"><title>Dobson's Declaration</title></section>
+      <section file="2004-10-18-chewed-things.xhtml"><title>Chewed Things</title></section>
+      <section file="2004-10-26-bird-recognition-skills.xhtml"><title>Bird Recognition Skills</title></section>
+      <section file="2004-10-28-with-dobson-in-the-land-of-nod.xhtml"><title>With Dobson in the Land of Nod</title></section>
+      <section file="2004-11-01-writers-block.xhtml"><title>Writer's Block</title></section>
+      <section file="2004-11-10-notes-on-jellyfish.xhtml"><title>Notes on Jellyfish</title></section>
+      <section file="2004-11-20-homage-to-esther-and-abi-ofarim.xhtml"><title>Homage to Esther and Abi Ofarim</title></section>
+      <section file="2004-12-07-meldrum-fonseca-uber-trombonist.xhtml"><title>Meldrum Fonseca : Über-trombonist</title></section>
+      <section file="2004-12-08-stairway-to-heaven.xhtml"><title>Stairway to Heaven</title></section>
+      <section file="2004-12-14-the-dark-night-of-the-soul.xhtml"><title>The Dark Night of the Soul</title></section>
+      <section file="2004-12-21-christmas-dinner.xhtml"><title>Christmas Dinner</title></section>
+      <section file="2004-12-29-how-dobson-spent-boxing-day.xhtml"><title>How Dobson Spent Boxing Day</title></section>
+    </section>
+    
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2005</title>
+      <section file="2005-01-01-phantasmal-quest-thing.xhtml"><title>Phantasmal Quest Thing</title></section>
+      <section file="2005-01-03-in-a-cabin-on-a-ship.xhtml"><title>In a Cabin, on a Ship</title></section>
+      <section file="2005-01-30-hark-the-herald-angels-sing.xhtml"><title>Hark! The Herald Angels Sing</title></section>
+      <section file="2005-02-04-tales-of-the-uncanny.xhtml"><title>Tales of the Uncanny</title></section>
+      <section file="2005-02-05-jarvis-and-cubbit.xhtml"><title>Jarvis and Cubbit</title></section>
+      <section file="2005-02-12-majestic-prose-in-dustbin.xhtml"><title>Majestic Prose in Dustbin</title></section>
+      <section file="2005-02-16-soup-committee.xhtml"><title>Soup Committee</title></section>
+      <section file="2005-02-17-a-note-on-bags.xhtml"><title>A Note on Bags</title></section>
+      <section file="2005-02-21-fifty-years-ago.xhtml"><title>Fifty Years Ago</title></section>
+      <section file="2005-05-24-back.xhtml"><title>Back</title></section>
+      <section file="2005-05-31-dobson-on-sport.xhtml"><title>Dobson on Sport</title></section>
+      <section file="2005-06-01-goddess-clarification.xhtml"><title>Goddess Clarification</title></section>
+      <section file="2005-06-01-lusty-jocund-swains.xhtml"><title>Lusty Jocund Swains</title></section>
+      <section file="2005-06-03-more-about-swans.xhtml"><title>More About Swans</title></section>
+      <section file="2005-06-08-the-voice-of-dobson.xhtml"><title>The Voice of Dobson?</title></section>
+      <section file="2005-06-10-indignant-pansy.xhtml"><title>Indignant Pansy</title></section>
+      <section file="2005-06-13-those-gubernatorial-bells.xhtml"><title>Those Gubernatorial Bells</title></section>
+      <section file="2005-06-20-sieves-and-basins.xhtml"><title>Sieves and Basins</title></section>
+      <section file="2005-07-12-pompous-lip-reader.xhtml"><title>Pompous Lip-reader</title></section>
+      <section file="2005-07-26-the-bilgewater-elegies.xhtml"><title>The Bilgewater Elegies</title></section>
+      <section file="2005-07-28-anniversaries.xhtml"><title>Anniversaries</title></section>
+      <section file="2005-08-04-a-pedant-writes.xhtml"><title>A Pedant Writes</title></section>
+      <section file="2005-08-16-fan-fiction-fad.xhtml"><title>Fan Fiction Fad</title></section>
+      <section file="2005-08-17-other-places-other-names.xhtml"><title>Other Places, Other Names</title></section>
+      <section file="2005-08-19-murder-in-the-murk.xhtml"><title>Murder in the Murk</title></section>
+      <section file="2005-08-22-metal-of-the-week-tin.xhtml"><title>Metal of the Week : Tin</title></section>
+      <section file="2005-08-29-a-dobson-anecdote.xhtml"><title>A Dobson Anecdote</title></section>
+      <section file="2005-09-02-forgery-news.xhtml"><title>Forgery News</title></section>
+      <section file="2005-09-02-give-me-a-glossary.xhtml"><title>Give Me a Glossary</title></section>
+      <section file="2005-09-02-tadeusz-kapisko-and-his-ears-of-wheat.xhtml"><title>Tadeusz Kapisko and His Ears of Wheat</title></section>
+      <section file="2005-09-29-cemetery-birds.xhtml"><title>Cemetery Birds</title></section>
+      <section file="2005-09-30-wisps-and-clumps.xhtml"><title>Wisps and Clumps</title></section>
+      <section file="2005-10-10-peas.xhtml"><title>Peas</title></section>
+      <section file="2005-10-11-the-magic-mountain.xhtml"><title>The Magic Mountain</title></section>
+      <section file="2005-12-24-a-special-christmas-treat-for-all-our-readers.xhtml"><title>A Special Christmas Treat for All Our Readers</title></section>
+      <section file="2005-12-25-a-special-christmas-treat-part-two.xhtml"><title>A Special Christmas Treat, Part Two</title></section>
+    </section>
+    
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2006</title>
+      <section file="2006-01-06-a-third-episode-of-blodgett-island.xhtml"><title>A Third Episode of <em>Blodgett Island</em></title></section>
+      <section file="2006-01-08-blodgett-island-the-adventure-continues.xhtml"><title><em>Blodgett Island</em> : The Adventure Continues</title></section>
+      <section file="2006-01-23-who-is-tristan-shuddery.xhtml"><title>Who Is Tristan Shuddery?</title></section>
+      <section file="2006-01-24-the-gnawed-and-the-chewed.xhtml"><title>The Gnawed and the Chewed</title></section>
+      <section file="2006-01-26-google-news.xhtml"><title>Google News</title></section>
+      <section file="2006-01-27-another-vlasto.xhtml"><title>Another Vlasto</title></section>
+      <section file="2006-02-07-elegant-smudges.xhtml"><title>Elegant Smudges</title></section>
+      <section file="2006-02-10-blazing-excelsior-saturated-with-turpentine.xhtml"><title>Blazing Excelsior Saturated With Turpentine</title></section>
+      <section file="2006-02-17-picture-post.xhtml"><title>Picture Post</title></section>
+      <section file="2006-02-23-certain-aspects-of-plastic-baubles-and-plastic-sheeting.xhtml"><title>Certain Aspects of Plastic Baubles and Plastic Sheeting</title></section>
+      <section file="2006-02-27-colossus.xhtml"><title>Colossus</title></section>
+      <section file="2006-03-04-revelations-regarding-old-halob.xhtml"><title>Revelations Regarding Old Halob</title></section>
+      <section file="2006-03-06-was-dobson-a-visionary.xhtml"><title>Was Dobson a Visionary?</title></section>
+      <section file="2006-03-14-he-preened-eating-bloaters.xhtml"><title>He Preened, Eating Bloaters</title></section>
+      <section file="2006-03-21-the-crooked-timber-of-humanity.xhtml"><title>The Crooked Timber of Humanity</title></section>
+      <section file="2006-03-26-fingerprints.xhtml"><title>Fingerprints</title></section>
+      <section file="2006-03-30-feral-childhood.xhtml"><title>Feral Childhood</title></section>
+      <section file="2006-04-02-embittered-sludge-person.xhtml"><title>Embittered Sludge Person</title></section>
+      <section file="2006-04-10-the-potato-clock-history-and-prospects.xhtml"><title>The Potato Clock : History and Prospects</title></section>
+      <section file="2006-04-11-that-dobson-hubbard-slur.xhtml"><title>That Dobson-hubbard Slur</title></section>
+      <section file="2006-04-17-dobson-the-convict.xhtml"><title>Dobson the Convict</title></section>
+      <section file="2006-04-17-medical-notes-on-a-mezzotintist.xhtml"><title>Medical Notes on a Mezzotintist</title></section>
+      <section file="2006-06-08-fort-hoity.xhtml"><title>Fort Hoity</title></section>
+      <section file="2006-06-14-fiends-of-the-farmyard.xhtml"><title>Fiends of the Farmyard</title></section>
+      <section file="2006-06-15-attempted-seduction-of-dobson-by-a-floozie.xhtml"><title>Attempted Seduction of Dobson by a Floozie</title></section>
+      <section file="2006-07-22-the-unspeakably-squalid-becrumplement-of-tadzio-gobbo.xhtml"><title>The Unspeakably Squalid Becrumplement of Tadzio Gobbo</title></section>
+      <section file="2006-07-30-a-note-on-pigs.xhtml"><title>A Note on Pigs</title></section>
+      <section file="2006-08-03-a-further-note-on-pigs.xhtml"><title>A Further Note on Pigs</title></section>
+      <section file="2006-09-15-wwdd.xhtml"><title>WWDD</title></section>
+      <section file="2006-11-27-glue-some-dos-and-donts.xhtml"><title>Glue : Some Do's and Don'ts</title></section>
+      <section file="2006-12-07-dobson-and-longevity.xhtml"><title>Dobson and Longevity</title></section>
+      <section file="2006-12-24-plovdiv-lenses.xhtml"><title>Plovdiv Lenses</title></section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2007</title>
+      <section file="2007-02-05-the-socks-of-pepintude.xhtml"><title>The Socks Of Pepintude</title></section>
+      <section file="2007-02-13-dobsons-chartreuse-weskit.xhtml"><title>Dobson's Chartreuse Weskit</title></section>
+      <section file="2007-02-17-strictly-pamphleteering.xhtml"><title>Strictly Pamphleteering</title></section>
+      <section file="2007-02-19-one-in-a-series-of-hiking-pickles.xhtml"><title>One In A Series Of Hiking Pickles</title></section>
+      <section file="2007-02-23-the-balladeer-of-bognor.xhtml"><title>The Balladeer Of Bognor</title></section>
+      <section file="2007-03-04-where-eagles-dare.xhtml"><title>Where Eagles Dare</title></section>
+      <section file="2007-03-06-six-lectures-on-fruit.xhtml"><title>Six Lectures On Fruit</title></section>
+      <section file="2007-03-13-celebrity-flibbertigibbet-attic.xhtml"><title>Celebrity Flibbertigibbet Attic</title></section>
+      <section file="2007-03-18-he-which-is-filthy-let-him-be-filthy-still.xhtml"><title>“He Which Is Filthy, Let Him Be Filthy Still”</title></section>
+      <section file="2007-03-22-old-farmer-frack.xhtml"><title>Old Farmer Frack</title></section>
+      <section file="2007-03-25-bloetzmann-manoeuvres.xhtml"><title>Blötzmann Manoeuvres</title></section>
+      <section file="2007-03-27-theyve-stolen-dobsons-brain.xhtml"><title>They've Stolen Dobson's Brain!</title></section>
+      <section file="2007-05-11-first-lines.xhtml"><title>First Lines</title></section>
+      <section file="2007-05-15-things-not-generally-known.xhtml"><title>Things Not Generally Known</title></section>
+      <section file="2007-05-25-a-byword-for-utter-gorgeousness.xhtml"><title>A Byword For Utter Gorgeousness</title></section>
+      <section file="2007-05-27-pebblehead-versus-pebblehead.xhtml"><title>Pebblehead Versus Pebblehead</title></section>
+      <section file="2007-05-29-rescue-squad.xhtml"><title>Rescue Squad</title></section>
+      <section file="2007-05-30-pale-and-fierce.xhtml"><title>Pale And Fierce</title></section>
+      <section file="2007-06-04-the-man-who-would-be-dobson.xhtml"><title>The Man Who Would Be Dobson</title></section>
+      <section file="2007-06-05-drink-ye-every-one-the-waters-of-his-own-cistern-until-i-come-and-take-you-away.xhtml"><title>Drink Ye Every One The Waters Of His Own Cistern, Until I Come And Take You Away</title></section>
+      <section file="2007-06-09-tacky-to-goo.xhtml"><title>Tacky To Goo</title></section>
+      <section file="2007-06-15-boot-bath.xhtml"><title>Boot Bath</title></section>
+      <section file="2007-06-15-rummaging-in-an-abandoned-satchel.xhtml"><title>Rummaging In An Abandoned Satchel</title></section>
+      <section file="2007-06-15-soap-flakes-in-a-box.xhtml"><title>Soap Flakes In A Box</title></section>
+      <section file="2007-06-18-tidy-is-as-tidy-does.xhtml"><title>Tidy Is As Tidy Does</title></section>
+      <section file="2007-06-20-the-sick-pig.xhtml"><title>The Sick Pig</title></section>
+      <section file="2007-06-27-up-in-the-mountains.xhtml"><title>Up In The Mountains</title></section>
+      <section file="2007-07-30-modern-snipe.xhtml"><title>Modern Snipe</title></section>
+      <section file="2007-08-08-the-tale-of-the-boffin-and-the-guttersnipe.xhtml"><title>The Tale Of The Boffin And The Guttersnipe</title></section>
+      <section file="2007-10-05-colossus.xhtml"><title>Colossus</title></section>
+      <section file="2007-10-10-plotinus-porphyry-dobson-chew-willis.xhtml"><title>Plotinus, Porphyry, Dobson, Chew, Willis</title></section>
+      <section file="2007-10-16-toffee-apple-wrapper-saved-from-the-flames.xhtml"><title>Toffee Apple Wrapper Saved From The Flames</title></section>
+      <section file="2007-10-24-dobsons-swat-team.xhtml"><title>Dobson's SWAT Team</title></section>
+      <section file="2007-10-28-readers-letters.xhtml"><title>Readers' Letters</title></section>
+      <section file="2007-11-07-blodgett-and-trubshaw.xhtml"><title>Blodgett And Trubshaw</title></section>
+      <section file="2007-11-14-thousands-of-unusual-and-arresting-facts-about-birds.xhtml"><title>Thousands Of Unusual And Arresting Facts About Birds</title></section>
+      <section file="2007-11-15-pancake-hints.xhtml"><title>Pancake Hints</title></section>
+      <section file="2007-11-21-dentists-potting-shed.xhtml"><title>Dentist's Potting Shed</title></section>
+      <section file="2007-12-03-very-useful-advice.xhtml"><title>Very Useful Advice</title></section>
+      <section file="2007-12-05-by-pointy-town-horse-trough-i-sat-down-and-wept.xhtml"><title>By Pointy Town Horse-Trough I Sat Down And Wept</title></section>
+      <section file="2007-12-10-an-essay-concerning-a-bird-perched-on-a-promontory.xhtml"><title>An Essay Concerning A Bird Perched On A Promontory</title></section>
+      <section file="2007-12-15-tin-squirrels.xhtml"><title>Tin Squirrels</title></section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2008</title>
+      <section file="2008-01-02-jug-o-paraffin.xhtml"><title>Jug o' Paraffin</title></section>
+      <section file="2008-01-10-three-dobson-pamphlets.xhtml"><title>Three Dobson Pamphlets</title></section>
+      <section file="2008-01-16-absence-of-swans.xhtml"><title>Absence Of Swans</title></section>
+      <section file="2008-01-20-a-vast-and-chilly-gasworks.xhtml"><title>A Vast And Chilly Gasworks</title></section>
+      <section file="2008-01-30-dobson-after-death.xhtml"><title>Dobson After Death</title></section>
+      <section file="2008-03-23-deluded-idiot.xhtml"><title>Deluded Idiot</title></section>
+      <section file="2008-03-30-bring-forth-devil-your-elks.xhtml"><title>Bring Forth, Devil, Your Elks</title></section>
+      <section file="2008-04-24-disquieting-ploppy-noises-from-behind-the-panel.xhtml"><title>Disquieting Ploppy Noises From Behind The Panel</title></section>
+      <section file="2008-04-29-crushed-and-squashed.xhtml"><title>Crushed And Squashed</title></section>
+      <section file="2008-05-07-three-examples-of-uncontrollable-flapping-about-and-twitching.xhtml"><title>Three Examples Of Uncontrollable Flapping About And Twitching</title></section>
+      <section file="2008-05-08-dobsons-blotter.xhtml"><title>Dobson's Blotter</title></section>
+      <section file="2008-05-08-letter-of-complaint.xhtml"><title>Letter Of Complaint</title></section>
+      <section file="2008-07-01-cows-in-a-field.xhtml"><title>Cows In A Field</title></section>
+      <section file="2008-07-15-a-talk-on-dobson.xhtml"><title>A Talk On Dobson</title></section>
+      <section file="2008-07-15-mr-keys-postbag.xhtml"><title>Mr Key's Postbag</title></section>
+      <section file="2008-07-20-janitor.xhtml"><title>Janitor</title></section>
+      <section file="2008-07-24-all-around-my-hat.xhtml"><title>All Around My Hat</title></section>
+      <section file="2008-07-27-denktash-fugue-syndrome.xhtml"><title>Denktash Fugue Syndrome</title></section>
+      <section file="2008-08-10-to-knit-knots-peradventure.xhtml"><title>To Knit Knots, Peradventure</title></section>
+      <section file="2008-09-03-diaries-of-the-dead.xhtml"><title>Diaries Of The Dead</title></section>
+      <section file="2008-09-09-hoistings.xhtml"><title>Hoistings</title></section>
+      <section file="2008-09-18-dobsons-dinghy.xhtml"><title>Dobson's Dinghy</title></section>
+      <section file="2008-09-21-the-dobsonmeter.xhtml"><title>The Dobsonmeter</title></section>
+      <section file="2008-09-25-vargas.xhtml"><title>Vargas</title></section>
+      <section file="2008-09-27-could-it-be.xhtml"><title>Could It Be… ?</title></section>
+      <section file="2008-10-10-dax.xhtml"><title>Dax</title></section>
+      <section file="2008-10-16-uptown-top-ranking.xhtml"><title>Uptown Top Ranking</title></section>
+      <section file="2008-10-22-dobson-on-the-web.xhtml"><title>Dobson On The Web</title></section>
+      <section file="2008-12-03-lord-love-a-duck.xhtml"><title>Lord, Love A Duck</title></section>
+      <section file="2008-12-17-cows-and-literature.xhtml"><title>Cows And Literature</title></section>
+      <section file="2008-12-18-woodcutter.xhtml"><title>Woodcutter</title></section>
+      <section file="2008-12-19-judith-and-holofernes.xhtml"><title>Judith And Holofernes</title></section>
+      <section file="2008-12-22-meetings-with-remarkable-owls.xhtml"><title>Meetings With Remarkable Owls</title></section>
+      <section file="2008-12-24-hospital-barge.xhtml"><title>Hospital Barge</title></section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2009</title>
+      <section file="2009-01-06-two-jaunts-with-uncle-lars.xhtml"><title>Two Jaunts With Uncle Lars</title></section>
+      <section file="2009-01-08-the-cosmological-blurtings.xhtml"><title>The Cosmological Blurtings</title></section>
+      <section file="2009-01-15-lars-porsena-of-clusium.xhtml"><title>Lars Porsena Of Clusium</title></section>
+      <section file="2009-01-24-chucking-out-time-at-the-cow-and-pins.xhtml"><title>Chucking-Out Time At The Cow &amp; Pins</title></section>
+      <section file="2009-01-27-the-hooting-yard-encyclopaedia-of-birds.xhtml"><title>The Hooting Yard Encyclopaedia Of Birds</title></section>
+      <section file="2009-02-07-the-book-of-gnats.xhtml"><title>The Book Of Gnats <em>[Pseudodobson]</em>></title></section>
+      <section file="2009-02-08-organised-fern-hunt.xhtml"><title>Organised Fern Hunt</title></section>
+      <section file="2009-02-12-those-wednesday-potato-nights.xhtml"><title>Those Wednesday Potato Nights</title></section>
+      <section file="2009-02-14-kitchen-groanings.xhtml"><title>Kitchen Groanings</title></section>
+      <section file="2009-02-15-dobsons-kitchen-groanings.xhtml"><title>Dobson's Kitchen Groanings</title></section>
+      <section file="2009-02-25-the-bell-and-the-toads-etcetera.xhtml"><title>The Bell And The Toads, Etcetera</title></section>
+      <section file="2009-02-25-wordsworth-dobson-prescott.xhtml"><title>Wordsworth, Dobson, Prescott</title></section>
+      <section file="2009-02-26-dobsons-boots.xhtml"><title>Dobson's Boots</title></section>
+      <section file="2009-03-06-wilf.xhtml"><title>Wilf</title></section>
+      <section file="2009-03-07-the-joke-pamphlet.xhtml"><title>The Joke Pamphlet</title></section>
+      <section file="2009-03-15-in-the-vestibule.xhtml"><title>In The Vestibule</title></section>
+      <section file="2009-03-23-shipwreck-is-everywhere.xhtml"><title>Shipwreck Is Everywhere</title></section>
+      <section file="2009-03-23-was-dobson-a-pantopragmaticist.xhtml"><title>Was Dobson A Pantopragmaticist?</title></section>
+      <section file="2009-03-25-swans-on-a-towpath.xhtml"><title>Swans On A Towpath</title></section>
+      <section file="2009-04-08-dobsons-card-index.xhtml"><title>Dobson's Card Index</title></section>
+      <section file="2009-04-17-macabre-folding-camp-chairs.xhtml"><title>Macabre Folding Camp Chairs</title></section>
+      <section file="2009-04-20-hiking-snapshots-number-one.xhtml"><title>Hiking Snapshots, Number One</title></section>
+      <section file="2009-04-22-notes-on-skippy.xhtml"><title>Notes On Skippy</title></section>
+      <section file="2009-07-01-blodgett-in-the-sewers.xhtml"><title>Blodgett In The Sewers</title></section>
+      <section file="2009-07-10-plums.xhtml"><title>Plums</title></section>
+      <section file="2009-07-12-seed-studies.xhtml"><title>Seed Studies</title></section>
+      <section file="2009-07-31-disaster-averted.xhtml"><title>Disaster Averted</title></section>
+      <section file="2009-08-02-swans-in-thunderstorms.xhtml"><title>Swans In Thunderstorms</title></section>
+      <section file="2009-08-03-other-swans-in-other-thunderstorms.xhtml"><title>Other Swans In Other Thunderstorms</title></section>
+      <section file="2009-08-06-i-am-johns-head.xhtml"><title>I Am John's Head</title></section>
+      <section file="2009-08-14-conscious-squirrel.xhtml"><title>Conscious Squirrel!</title></section>
+      <section file="2009-08-16-dobsons-cacodaemon.xhtml"><title>Dobson's Cacodaemon</title></section>
+      <section file="2009-08-16-dobsons-cocoademon.xhtml"><title>Dobson's Cocoademon</title></section>
+      <section file="2009-08-20-old-ground.xhtml"><title>Old Ground</title></section>
+      <section file="2009-08-21-fogwives.xhtml"><title>Fogwives</title></section>
+      <section file="2009-08-26-a-note-on-pedagogy.xhtml"><title>A Note On Pedagogy</title></section>
+      <section file="2009-09-03-lost-or-imaginary.xhtml"><title>Lost Or Imaginary</title></section>
+      <section file="2009-09-07-library-clown-traumas.xhtml"><title>Library Clown Traumas</title></section>
+      <section file="2009-09-15-sick-amid-the-blossoms.xhtml"><title>Sick Amid The Blossoms</title></section>
+      <section file="2009-09-17-gish-and-wasps.xhtml"><title>Gish 'n' Wasps</title></section>
+      <section file="2009-10-11-in-the-other-house.xhtml"><title>In The Other House</title></section>
+      <section file="2009-10-12-government-canoe.xhtml"><title>Government Canoe</title></section>
+      <section file="2009-10-21-service-pack-six.xhtml"><title>Service Pack Six</title></section>
+      <section file="2009-11-02-matters-of-note.xhtml"><title>Matters Of Note</title></section>
+      <section file="2009-11-13-singalonga-spem-in-alium.xhtml"><title>Singalonga Spem In Alium</title></section>
+      <section file="2009-11-18-songs-my-mother-taught-me.xhtml"><title>Songs My Mother Taught Me</title></section>
+      <section file="2009-12-22-rosh-sal-ber-yon.xhtml"><title>Rosh Sal Ber Yon</title></section>
+      <section file="2009-12-26-tolls-and-jingles.xhtml"><title>Tolls And Jingles</title></section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2010</title>
+      <section file="2010-01-09-the-moorhen-appreciation-society.xhtml"><title>The Moorhen Appreciation Society</title></section>
+      <section file="2010-01-11-a-short-essay-upon-cardboard-breakfast-cereal-packets.xhtml"><title>A Short Essay Upon Cardboard Breakfast Cereal Packets</title></section>
+      <section file="2010-01-17-quite-extraordinary.xhtml"><title>Quite Extraordinary</title></section>
+      <section file="2010-01-27-about-ivan-clank.xhtml"><title>About Ivan Clank</title></section>
+      <section file="2010-02-08-one-thousand.xhtml"><title>One Thousand</title></section>
+      <section file="2010-02-12-epigone.xhtml"><title>Epigone</title></section>
+      <section file="2010-02-18-pancake-day.xhtml"><title>Pancake Day</title></section>
+      <section file="2010-02-24-pebblehead-goes-to-porlock.xhtml"><title>Pebblehead Goes To Porlock</title></section>
+      <section file="2010-04-04-for-newcomers.xhtml"><title>For Newcomers</title></section>
+      <section file="2010-04-10-hell-its-bells.xhtml"><title>Hell, Its Bells</title></section>
+      <section file="2010-04-27-what-is-wrong-with-grooving.xhtml"><title>What Is Wrong With Grooving?</title></section>
+      <section file="2010-04-30-tiny-lethal.xhtml"><title>Tiny, Lethal</title></section>
+      <section file="2010-05-03-werewolf-tax.xhtml"><title>Werewolf Tax</title></section>
+      <section file="2010-05-04-the-mythical-island.xhtml"><title>The Mythical Island</title></section>
+      <section file="2010-05-05-letter-from-a-werewolf.xhtml"><title>Letter From A Werewolf</title></section>
+      <section file="2010-05-23-chalet-o-prose.xhtml"><title>Chalet O’ Prose</title></section>
+      <section file="2010-06-01-flight-patterns-of-the-common-shrike.xhtml"><title>Flight Patterns Of The Common Shrike</title></section>
+      <section file="2010-06-12-the-manufacture-of-tinplate.xhtml"><title>The Manufacture Of Tinplate</title></section>
+      <section file="2010-06-17-summer-reading.xhtml"><title>Summer Reading</title></section>
+      <section file="2010-07-01-poultry-yards-of-the-grand-archdukes.xhtml"><title>Poultry Yards Of The Grand Archdukes</title></section>
+      <section file="2010-07-18-dobson-in-dreamland.xhtml"><title>Dobson In Dreamland</title></section>
+      <section file="2010-07-20-dobsons-abortive-pliny.xhtml"><title>Dobson's Abortive Pliny</title></section>
+      <section file="2010-07-27-neither-dobson-nor-bloetzmann-nor-joost-van-dongelbraacke.xhtml"><title>Neither Dobson Nor Blötzmann Nor Joost Van Dongelbraacke</title></section>
+      <section file="2010-07-28-pippy-bag-project.xhtml"><title>Pippy Bag Project</title></section>
+      <section file="2010-08-01-hay-in-nosebags.xhtml"><title>Hay In Nosebags</title></section>
+      <section file="2010-08-10-jars-and-moss.xhtml"><title>Jars And Moss</title></section>
+      <section file="2010-08-10-monkeys-and-squirrels.xhtml"><title>Monkeys And Squirrels</title></section>
+      <section file="2010-08-16-gethsemane-picnic-time.xhtml"><title>Gethsemane Picnic Time</title></section>
+      <section file="2010-09-23-j.xhtml"><title>J</title></section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2011</title>
+      <section file="2011-01-16-otter-sanctuary-sandwich-paste.xhtml"><title>Otter Sanctuary Sandwich Paste</title></section>
+      <section file="2011-02-05-the-maintenance-of-reservoirs.xhtml"><title>The Maintenance Of Reservoirs</title></section>
+      <section file="2011-03-17-things-beginning-with-b.xhtml"><title>Things Beginning With B</title></section>
+      <section file="2011-03-27-the-funnel-volume-one.xhtml"><title>The Funnel, Volume One</title></section>
+      <section file="2011-03-27-the-funnel-volume-two.xhtml"><title>The Funnel, Volume Two</title></section>
+      <section file="2011-03-28-about-the-funnel.xhtml"><title>About The Funnel</title></section>
+      <section file="2011-04-07-notes-and-queries.xhtml"><title>Notes And Queries</title></section>
+      <section file="2011-04-07-the-pillow-pamphlets.xhtml"><title>The Pillow Pamphlets</title></section>
+      <section file="2011-04-10-goatherd-in-residence.xhtml"><title>Goatherd In Residence</title></section>
+      <section file="2011-04-15-dabbling-with-the-law.xhtml"><title>Dabbling With The Law</title></section>
+      <section file="2011-06-23-dobsonmore.xhtml"><title>Dobsonmore</title></section>
+      <section file="2011-07-25-dobson-and-the-pit.xhtml"><title>Dobson And The Pit</title></section>
+      <section file="2011-07-26-find-the-bailing-bucket.xhtml"><title>Find The Bailing Bucket</title></section>
+      <section file="2011-08-03-swanky-motor.xhtml"><title>Swanky Motor</title></section>
+      <section file="2011-08-21-biblical-cormorants.xhtml"><title>Biblical Cormorants</title></section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2012</title>
+      <section file="2012-01-04-on-potatoes.xhtml"><title>On Potatoes</title></section>
+      <section file="2012-02-03-on-the-administration-of-lighthouses.xhtml"><title>On The Administration Of Lighthouses</title></section>
+      <section file="2012-02-09-on-having-the-prize-within-ones-grasp.xhtml"><title>On Having The Prize Within One's Grasp</title></section>
+      <section file="2012-02-14-on-the-one-eyed-crossing-sweeper-of-sawdust-bridge.xhtml"><title>On The One-Eyed Crossing-Sweeper Of Sawdust Bridge</title></section>
+      <section file="2012-03-09-on-curlews.xhtml"><title>On Curlews</title></section>
+      <section file="2012-04-01-on-fools.xhtml"><title>On Fools</title></section>
+      <section file="2012-04-04-on-the-livers-of-polar-bears.xhtml"><title>On The Livers Of Polar Bears</title></section>
+      <section file="2012-04-11-on-the-sea-for-those-in-peril.xhtml"><title>On The Sea, For Those In Peril</title></section>
+      <section file="2012-05-02-mosh-pit.xhtml"><title>Mosh Pit</title></section>
+      <section file="2012-05-12-on-the-crooked-timber-of-humanity.xhtml"><title>On The Crooked Timber Of Humanity</title></section>
+      <section file="2012-05-17-on-dumbing-down.xhtml"><title>On Dumbing Down</title></section>
+      <section file="2012-06-17-on-tadeusz-kapisko-and-his-ears-of-wheat.xhtml"><title>On Tadeusz Kapisko And His Ears Of Wheat</title></section>
+      <section file="2012-06-19-on-fiends-of-the-farmyard.xhtml"><title>On Fiends Of The Farmyard</title></section>
+      <section file="2012-06-28-on-dobsons-country-diary.xhtml"><title>On Dobson's Country Diary</title></section>
+      <section file="2012-06-29-on-dobsons-country-dairy.xhtml"><title>On Dobson's Country Dairy</title></section>
+      <section file="2012-06-30-on-dobsons-urban-diary.xhtml"><title>On Dobson's Urban Diary</title></section>
+      <section file="2012-07-04-on-the-bisky-bat.xhtml"><title>On The Bisky Bat</title></section>
+      <section file="2012-07-12-on-footnotes.xhtml"><title>On Footnotes</title></section>
+      <section file="2012-07-13-on-uncanny-hats.xhtml"><title>On Uncanny Hats</title></section>
+      <section file="2012-07-25-on-light-pouring-out.xhtml"><title>On Light Pouring Out</title></section>
+      <section file="2012-08-09-on-an-atoll.xhtml"><title>On An Atoll</title></section>
+      <section file="2012-08-25-on-mephitic-vapours.xhtml"><title>On Mephitic Vapours</title></section>
+      <section file="2012-09-02-on-bird-funerals.xhtml"><title>On Bird Funerals</title></section>
+      <section file="2012-10-04-on-a-colossus.xhtml"><title>On A Colossus</title></section>
+      <section file="2012-10-09-on-the-catalogue-of-ships.xhtml"><title>On The Catalogue Of Ships</title></section>
+      <section file="2012-11-09-on-homburg.xhtml"><title>On Homburg</title></section>
+      <section file="2012-11-14-on-mountains-and-suitcases.xhtml"><title>On Mountains And Suitcases</title></section>
+      <section file="2012-12-13-hooting-yard-haiku.xhtml"><title>Hooting Yard Haiku</title></section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2013</title>
+      <section file="2013-01-01-dobsons-diary-1-1-53.xhtml"><title>Dobson's Diary 1.1.53</title></section>
+      <section file="2013-01-02-dobsons-diary-2-1-53.xhtml"><title>Dobson's Diary 2.1.53</title></section>
+      <section file="2013-01-05-dobsons-diary-5-1-58.xhtml"><title>Dobson's Diary 5.1.58</title></section>
+      <section file="2013-01-17-dobsons-diary-17-1-61.xhtml"><title>Dobson's Diary 17.1.61</title></section>
+      <section file="2013-03-25-travels-in-arabia-deserta.xhtml"><title>Travels In Arabia Deserta</title></section>
+      <section file="2013-04-16-amsterdam.xhtml"><title>Amsterdam</title></section>
+      <section file="2013-04-26-kimika-ying-writes-in.xhtml"><title>Kimika Ying Writes In</title></section>
+      <section file="2013-05-05-the-beak.xhtml"><title>The Beak</title></section>
+      <section file="2013-05-10-clowns-and-fruitcakes.xhtml"><title>Clowns And Fruitcakes</title></section>
+      <section file="2013-06-05-dining-well-on-moss-and-eels.xhtml"><title>Dining Well On Moss And Eels</title></section>
+      <section file="2013-06-12-reflections-on-poles-and-holes-and-moles.xhtml"><title>Reflections On Poles And Holes And Moles</title></section>
+      <section file="2013-06-18-the-dobson-archive.xhtml"><title>The Dobson Archive</title></section>
+      <section file="2013-08-28-sops-and-fillips.xhtml"><title>Sops And Fillips</title></section>
+      <section file="2013-09-28-the-dobson-monument.xhtml"><title>The Dobson Monument</title></section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2014</title>
+      <section file="2014-01-11-dobsons-abortive-bandicoot-pamphlet.xhtml"><title>Dobson's Abortive Bandicoot Pamphlet</title></section>
+      <section file="2014-01-19-buying-macaroni.xhtml"><title>Buying Macaroni</title></section>
+      <section file="2014-01-26-the-lollopers.xhtml"><title><em>The Lollopers</em></title></section>
+      <section file="2014-02-02-pop.xhtml"><title>Pop!</title></section>
+      <section file="2014-07-24-word-of-the-day-boggle.xhtml"><title>Word Of The Day : Boggle</title></section>
+      <section file="2014-07-25-word-of-the-day-clunk.xhtml"><title>Word Of The Day : Clunk</title></section>
+      <section file="2014-07-30-smokers-poptarts.xhtml"><title>Smokers' Poptarts</title></section>
+      <section file="2014-08-03-cat-versus-booby.xhtml"><title>Cat Versus Booby</title></section>
+      <section file="2014-08-05-speckles-and-splodges-and-smudges.xhtml"><title>Speckles And Splodges And Smudges</title></section>
+      <section file="2014-08-10-the-truncheon-brothers.xhtml"><title>The Truncheon Brothers</title></section>
+      <section file="2014-08-12-filthy-magpie.xhtml"><title>Filthy Magpie</title></section>
+      <section file="2014-08-14-dobson-at-his-escritoire.xhtml"><title>Dobson At His Escritoire</title></section>
+      <section file="2014-08-24-3003.xhtml"><title>3003</title></section>
+      <section file="2014-08-25-which-out-of-print-dobson-pamphlet-are-you.xhtml"><title>Which Out Of Print Dobson Pamphlet Are You?</title></section>
+      <section file="2014-09-29-savagery-in-splat.xhtml"><title>Savagery In Splat</title></section>
+      <section file="2014-10-03-bambam-goes-haywire.xhtml"><title>BamBam Goes Haywire</title></section>
+      <section file="2014-10-09-sirinuntananon-and-bewg.xhtml"><title>Sirinuntananon &amp; Bewg</title></section>
+      <section file="2014-10-10-birdseed-folderol.xhtml"><title>Birdseed Folderol</title></section>
+      <section file="2014-11-01-rw-and-ab.xhtml"><title>RW &amp; AB</title></section>
+    </section>
+
+    <section separate="yes">
+      <title><em>Anno Domini</em> 2015 onwards</title>
+      <section file="2015-01-06-the-clappers.xhtml"><title>The Clappers</title></section>
+      <section file="2015-01-14-dobsons-invitation.xhtml"><title>Dobson's Invitation</title></section>
+      <section file="2015-01-20-the-pips.xhtml"><title>The Pips</title></section>
+      <section file="2015-11-03-dobson-preoccupied.xhtml"><title>Dobson, Preoccupied</title></section>
+      <section file="2015-11-19-book-review.xhtml"><title>Book Review</title></section>
+      <section file="2016-01-23-seething-dobson.xhtml"><title>Seething Dobson</title></section>
+      <section file="2016-08-16-pirouette-and-volte-face.xhtml"><title>Pirouette And <em>Volte Face</em></title></section>
+      <section file="2016-09-18-white-man-in-hammersmith-palais.xhtml"><title>(White Man) In Hammersmith Palais</title></section>
+      <section file="2016-09-19-marmaladeless-mornings.xhtml"><title>Marmaladeless Mornings</title></section>
+      <section file="2017-03-14-pillow-pamphlets.xhtml"><title>Pillow Pamphlets</title></section>
+      <section file="2017-10-29-krakow-bird-tile.xhtml"><title>Krakow Bird Tile</title></section>
+      <section file="2017-11-01-lint.xhtml"><title>Lint</title></section>
+      <section file="2017-11-09-dobson-goes-doolally.xhtml"><title>Dobson Goes Doolally</title></section>
+      <section file="2017-11-14-the-tarleton-sentence.xhtml"><title>The Tarleton Sentence</title></section>
+      <section file="2017-11-30-17-years-in-an-alpine-mist.xhtml"><title>17 Years In An Alpine Mist</title></section>
+      <section file="2017-12-15-dobson-on-googie.xhtml"><title>Dobson On Googie</title></section>
+      <section file="2018-02-22-a-fratricide.xhtml"><title>A Fratricide</title></section>
+      <section file="2018-03-03-the-vulture.xhtml"><title>The Vulture</title></section>
+      <section file="2018-04-30-ornithology.xhtml"><title>Ornithology</title></section>
+    </section>
+
+    <section separate="yes">
+      <title>The Mists Of Time</title>
+      
+      <!-- These are from the old Hooting Yard Home Page. The files are from the 
+           'Old Book of Key' ebook, because I have added Frank's later "document 
+           recovery service" introductions to those. -->
+      
+      <section file="agree.xhtml"> <title>The Dobson Übertoolbar User's Agreement</title> </section>
+      <section file="birds.xhtml"> <title>A Catalogue of 53 Birds</title> </section>
+      <section file="albatross.xhtml" author="chew earle"> <title>The Albatross</title> </section>
+      <section file="dobson.xhtml">
+        <!-- This is by "Dobson, the playwright" -->
+        <title>The Glue In The Palace Was Rarefied; The Putty Was Dreadful <em>[Pseudodobson]</em></title>
+      </section>
+      <section file="jars.xhtml"> <title>Advice On Jars</title> </section>
+      <section file="pills.xhtml"> <title>A Brief Note About Pills</title> </section>
+      <section file="transcript.xhtml"> <title>Transcript of a Dictaphone Recording</title> </section>
+      <section file="aerostat.xhtml">
+        <!-- I'm not sure this is the later Dobson... -->
+        <title>By Aerostat to Hooting Yard <em>[Pseudodobson]</em></title>
+      </section>
+    </section>
+    
+</contents>
+
+  <illustrations>
+    <image file="2004-01-figurine.jpg"/>
+    <image file="2004-01-hardboard.jpg"/>
+    <image file="2004-02-badger.jpg"/>
+    <image file="2004-02-bismuth.jpg"/>
+    <image file="2004-02-dobsontb.gif" alt="DOBSON ÜBERTOOLBAR"/>
+    <image file="2004-02-titanium.jpg"/>
+    <image file="2004-03-birdseedbook.jpg"/>
+    <image file="2004-03-dinosaurs.jpg"/>
+    <image file="2004-03-henry.jpg"/>
+    <image file="2004-03-hide.jpg"/>
+    <image file="2004-03-hoonjaw.jpg"/>
+    <image file="2004-03-iandz.jpg"/>
+    <image file="2004-03-ladybirddobson.jpg"/>
+    <image file="2004-03-leech.jpg"/>
+    <image file="2004-03-matnat1.jpg"/>
+    <image file="2004-03-matnat2.jpg"/>
+    <image file="2004-03-matnat3.jpg"/>
+    <image file="2004-03-rescue.jpg"/>
+    <image file="2004-03-riots.jpg"/>
+    <image file="2004-03-rustic.jpg"/>
+    <image file="2004-04-deckchair.jpg"/>
+    <image file="2004-04-lollipop.jpg"/>
+    <image file="2004-05-Stalincult.jpg"/>
+    <image file="2004-05-croissants.jpg"/>
+    <image file="2004-06-Fontanelle.jpg"/>
+    <image file="2004-06-Fontanelle1.jpg"/>
+    <image file="2004-06-curlew.jpg"/>
+    <image file="2004-07-lopmap.jpg"/>
+    <image file="2004-07-newley.jpg"/>
+    <image file="2004-07-projectlop.jpg"/>
+    <image file="2004-07-steed.jpg"/>
+    <image file="2004-08-barcode.gif"/>
+    <image file="2004-08-dyn2.jpg"/>
+    <image file="2004-08-icyball_2.jpg"/>
+    <image file="2004-09-bell.jpg"/>
+    <image file="2004-09-bluedemon.jpg"/>
+    <image file="2004-09-coleridge.jpg"/>
+    <image file="2004-09-cur.jpg"/>
+    <image file="2004-09-porlock.jpg"/>
+    <image file="2004-09-ringo.jpg"/>
+    <image file="2004-10-SteveHillage.jpg"/>
+    <image file="2004-10-declaration.jpg"/>
+    <image file="2004-10-herringgullbeak.jpg"/>
+    <image file="2004-11-ofarim.jpg"/>
+    <image file="2004-12-dobsonbook.jpg"/>
+    <image file="2004-12-holly.gif"/>
+    <image file="2004-12-johnofthecross.jpg"/>
+    <image file="2004-12-marseillesmission.jpg"/>
+    <image file="2004-12-princes.jpg"/>
+    <image file="2005-01-jrrt.jpg"/>
+    <image file="2005-02-Rasputin.jpg"/>
+    <image file="2005-02-moth.jpg"/>
+    <image file="2005-02-orrery.jpg"/>
+    <image file="2005-05-games.jpg"/>
+    <image file="2005-06-blackswan.jpg"/>
+    <image file="2005-06-cardea.jpg"/>
+    <image file="2005-06-cardea01.jpg"/>
+    <image file="2005-07-calorgas.jpg"/>
+    <image file="2005-08-albanianstamp.jpg"/>
+    <image file="2005-08-munich.jpg"/>
+    <image file="2005-08-oldwinnipeghotel.jpg"/>
+    <image file="2005-08-tin.jpg"/>
+    <image file="2005-08-tin2.jpg"/>
+    <image file="2005-08-tintin.jpg"/>
+    <image file="2005-09-dobsonchurchyard.jpg"/>
+    <image file="2005-09-ribbon.jpg"/>
+    <image file="2005-10-hindenburg.jpg"/>
+    <image file="2005-10-hurlstone.jpg"/>
+    <image file="2005-10-peas_in_pod.jpg"/>
+    <image file="2005-12-holly.gif"/>
+    <image file="2006-01-dobson_logo.jpg"/>
+    <image file="2006-01-fruit.jpg"/>
+    <image file="2006-01-google_logo.jpg"/>
+    <image file="2006-01-opik.jpg"/>
+    <image file="2006-02-frippandbilly.jpg"/>
+    <image file="2006-02-noHooting.jpg"/>
+    <image file="2006-02-plastic.JPG"/>
+    <image file="2006-02-swanhead.jpg"/>
+    <image file="2006-03-halob.jpg"/>
+    <image file="2006-03-hauser.jpg"/>
+    <image file="2006-03-rod.jpg"/>
+    <image file="2006-03-threedegrees.jpg"/>
+    <image file="2006-03-victor.jpg"/>
+    <image file="2006-04-potatoclock.jpg"/>
+    <image file="2006-04-prisonship.jpg"/>
+    <image file="2006-04-sludge.JPG"/>
+    <image file="2006-04-sludge1.jpg"/>
+    <image file="2006-07-Duggars.jpg"/>
+    <image file="2006-07-burgess.jpg"/>
+    <image file="2006-07-pig.jpg"/>
+    <image file="2006-09-orphansreading.jpg"/>
+    <image file="2006-09-wwjd.jpg"/>
+    <image file="2006-12-coddingtonlens.jpg"/>
+    <image file="2007-05-rescuesquad.jpg"/>
+    <image file="2007-06-cassette1.jpg"/>
+    <image file="2007-07-snipe.jpg"/>
+    <image file="2007-10-field-road-2000.jpg"/>
+    <image file="2008-01-dobson1.jpg"/>
+    <image file="2008-01-dobson2.jpg"/>
+    <image file="2008-01-dobson3.jpg"/>
+    <image file="2008-03-knightattire.jpg"/>
+    <image file="2008-04-soaplabel.jpg"/>
+    <image file="2008-07-2624506510_f6b3876d3b.jpg"/>
+    <image file="2008-09-dobsonphoto.jpg"/>
+    <image file="2008-10-gravitas_cover_small.jpg"/>
+    <image file="2008-12-princes.jpg"/>
+    <image file="2009-01-great-grey-shrike.jpg"/>
+    <image file="2009-02-blattner.jpg"/>
+    <image file="2009-02-blister-lane.jpg"/>
+    <image file="2009-02-brochure.jpg"/>
+    <image file="2009-02-civic-platform.jpg"/>
+    <image file="2009-02-fernhunt.jpg"/>
+    <image file="2009-02-hoon.jpg"/>
+    <image file="2009-02-horrible-cave.jpg"/>
+    <image file="2009-02-hy-station-sign.jpg"/>
+    <image file="2009-02-macabre-village.jpg"/>
+    <image file="2009-02-oh-wharf.jpg"/>
+    <image file="2009-02-pang-hill.jpg"/>
+    <image file="2009-02-pointy-town.jpg"/>
+    <image file="2009-02-the-ponds.jpg"/>
+    <image file="2009-03-lemesurier.png"/>
+    <image file="2009-04-snapshot20090419102519.jpg"/>
+    <image file="2009-08-thomas-nashe-1.jpg"/>
+    <image file="2009-09-Browne.jpg"/>
+    <image file="2009-09-rabelais.jpg"/>
+    <image file="2009-10-13193_1_200px.jpg"/>
+    <image file="2009-10-Hibberd.jpg"/>
+    <image file="2009-10-download_button.jpg"/>
+    <image file="2009-12-Marr.jpg"/>
+    <image file="2010-04-DSCN2352_thumb.jpg"/>
+    <image file="2010-05-chaletoprose.jpg"/>
+    <image file="2010-06-summer-reading.jpg"/>
+    <image file="2010-07-603px-Galton_at_Bertillons_1893.jpg"/>
+    <image file="2010-07-Dabbler-3logo-1.jpg"/>
+    <image file="2010-09-intrigue-in-the-void.jpg"/>
+    <image file="2010-11-ladybirddobson.jpg"/>
+    <image file="2011-08-IMG_0454.JPG"/>
+    <image file="2012-04-eternal-father.jpg"/>
+    <image file="2012-04-polar-bear.jpg"/>
+    <image file="2012-05-littlelessons.jpg"/>
+    <image file="2012-06-Village-of-the-Damned-12.jpg"/>
+    <image file="2012-06-experience2.jpg"/>
+    <image file="2012-07-Kiss-Me-Deadly-1955-3.jpg"/>
+    <image file="2012-09-62603269_scrubjay.jpg"/>
+    <image file="2012-11-bish_2392060a.jpg"/>
+    <image file="2013-01-Kenneth-williams-article.jpg"/>
+    <image file="2013-01-franz-kafka.jpg"/>
+    <image file="2013-01-masks.JPG"/>
+    <image file="2013-01-sandpiper1.JPG"/>
+    <image file="2013-01-sandpiper2.JPG"/>
+    <image file="2013-03-S0005728.jpg"/>
+    <image file="2013-04-94300411_d59450be73.jpg"/>
+    <image file="2013-06-259284.jpg"/>
+    <image file="2013-09-the_dobson_monument.jpg"/>
+    <image file="2013-10-sludge.JPG"/>
+    <image file="2013-10-sludge1.jpg"/>
+    <image file="2014-01-dobson3.jpg"/>
+    <image file="2014-01-download1.jpg"/>
+    <image file="2014-08-998652_10151955343197573_818698963_n.jpg"/>
+    <image file="2014-08-blue-footed-booby-262x350.jpg"/>
+    <image file="2014-08-x-click-butcc-donate.png"/>
+    <image file="2014-09-hauser.jpg"/>
+    <image file="2014-09-victor.jpg"/>
+    <image file="2014-10-birdseedbook.jpg"/>
+    <image file="2014-11-risstr.jpg"/>
+    <image file="2016-01-seething.JPG"/>
+    <image file="2016-09-Capture.PNG"/>
+    <image file="2017-10-Frank_key_lars_talc.jpg"/>
+    <image file="2017-10-IMG_20171020_140415.jpg"/>
+    <image file="2017-10-bird.png"/>
+    <image file="2017-11-1280x720-30L.jpg"/>
+    <image file="2017-11-alps_fog_foggy_forest_lake_landscape_mist_morning_597996.jpg"/>
+    <image file="2017-11-cae28a264b3064f87ea30f4f430a14e3-the-toad-pop-art-comics.jpg"/>
+    <image file="2017-11-razzy-dazzy-spasm-band-1896-or-97.jpg"/>
+    <image file="2017-12-dobson3.jpg"/>
+    <image file="2017-12-logo.png"/>
+    <image file="cover.png" id="cover"/>
+  </illustrations>
+
+  <attributions>
+    <creator id="chew">Marigold Chew</creator>
+    <creator id="earle">Augustus Earle</creator> 
+  </attributions>
+</book>
