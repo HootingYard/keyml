@@ -36,7 +36,7 @@ jobs:
         with:
           python-version: '>=3.7'
         
-      - name: Install XHTML DTD package
+      - name: Install XHTML DTD package (for XHTML validation)
         run: sudo apt-get install w3c-sgml-lib
 
       - name: Install bigbook.py's required Python packages
@@ -46,7 +46,4 @@ jobs:
       - name: Test Big Book of Key using bigbook.py
         run: |
           cd $GITHUB_WORKSPACE/keyml/books/bigbook
-          python3 $GITHUB_WORKSPACE/ubercoordinator/src/bigbook.py \
-               -d $GITHUB_WORKSPACE/ubercoordinator/src/bigbook.dtd \
-               -x $GITHUB_WORKSPACE/ubercoordinator/src/bigbook.sch \
-               -i Text/*.xhtml
+          python3 $GITHUB_WORKSPACE/ubercoordinator/src/bigbook.py -i Text/*.xhtml
